@@ -11,8 +11,7 @@ const Test = () => {
         setUers(await response.json());
      }
 
-    useEffect(() => { getUser();}, []
-    );
+    useEffect(() => { getUser();}, []);
 
     return (<>
         
